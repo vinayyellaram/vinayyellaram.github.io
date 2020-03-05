@@ -1,0 +1,108 @@
+*
+{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+} 
+
+body
+{
+ font-family:'Muli', sans-serif ;
+}
+
+a{text-decoration: none;}
+
+
+#content
+{ 
+ background: url('7bike.jpg')  rgba(247, 164, 40,0.1) center center/cover no-repeat;
+  height: 100vh;
+  padding: 0.3px;
+  margin:0.1px;
+}
+
+.caption 
+{
+ display: flex;
+ text-align: center;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+ height: 100vh;
+ font-size: 20px;
+ color: rgb(228, 139, 139);
+
+/*overlay*/
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 1;
+ background: rgba(0, 0, 0, 0.2);
+
+}
+
+/* Navbar */
+
+.navbar
+{ 
+   flex: 2;
+   display: flex;
+   font-size:35px ;
+   background: rgb(0, 0, 0);
+   justify-content: space-between;
+   top: 0;
+ }
+
+.navbar #icon
+{ color: rgb(106, 4, 202);
+  margin:0 1rem;
+  padding: 0rem 1rem;
+  padding-top:1.9rem ;
+}
+
+.navbar #sidebar ul 
+{
+   display: flex; 
+   padding: 1rem;
+   list-style: none;
+   border-radius:1rem black;
+   margin-top: 1rem;
+       
+}
+.navbar #sidebar ul li 
+{
+  margin: 0.3rem 1rem;
+  font-size:1.3rem ;
+  text-align: center; 
+}
+.navbar #sidebar ul li a
+{ 
+}
+.navbar #sidebar ul li a:hover
+{
+  background: rgb(251, 250, 252);
+  border-radius: 15px;
+  padding: 0.5rem;
+
+}
+
+
+/*Content*/
+.caption #Date 
+{
+ font-size: 45px;
+ color: rgb(236, 129, 129);
+ 
+}
+.caption #Time 
+{
+ font-size:35px;
+ color: rgb(74, 255, 216);
+ 
+}
+.caption #quotes
+{
+font-size: 25px;
+color: rgb(252, 105, 21);
+margin: 0 200px;
+}

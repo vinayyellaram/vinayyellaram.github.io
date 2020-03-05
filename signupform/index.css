@@ -1,0 +1,45 @@
+*
+{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ 
+}
+
+.contain
+{
+ background: black;
+ height: auto;
+ display: grid;
+}
+.contain h1{text-align: center;
+   color: rgb(69, 69, 189);
+  margin: 10px;
+ padding: 5px;
+}
+.form
+{
+ line-height: 35px;
+ background: rgb(193, 190, 241);
+ display: block;
+ margin: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ padding: 30px;
+ max-width: 400px;
+ height: auto;
+ border-radius: 2% ;
+ font-size: 22px;
+}
+.form .block
+{
+background: rgb(150, 150, 202);
+margin: 1px;
+padding: 5px;
+border-radius: 5px;
+}
+
+label
+{
+   padding:10px;
+}
