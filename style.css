@@ -57,8 +57,12 @@ a{text-decoration: none;}
 { color: rgb(106, 4, 202);
   margin:0 1rem;
   padding: 0rem 1rem;
-  padding-top:1.9rem ;
+  padding-top:1rem ;
+  padding-bottom:3px ;
+  transition: all 0.3s ease-in;
 }
+
+.navbar #icon:hover{background:rgb(191, 143, 236);}
 
 .navbar #sidebar ul 
 {
@@ -66,33 +70,44 @@ a{text-decoration: none;}
    padding: 1rem;
    list-style: none;
    border-radius:1rem black;
-   margin-top: 1rem;
+   margin: 0.3rem;
        
 }
 .navbar #sidebar ul li 
 {
   margin: 0.3rem 1rem;
-  font-size:1.3rem ;
+  font-size:1.2rem ;
   text-align: center; 
 }
 .navbar #sidebar ul li a
 { 
+  color: blueviolet;
+  animation-duration: 2;
 }
 .navbar #sidebar ul li a:hover
 {
   background: rgb(251, 250, 252);
-  border-radius: 15px;
+  border-radius: 12px;
   padding: 0.5rem;
 
 }
 
 
 /*Content*/
+
+.caption
+{
+  justify-content: center;
+  align-self: auto;
+  align-items: center;
+  position: sticky;
+}
 .caption #Date 
 {
  font-size: 45px;
  color: rgb(236, 129, 129);
  
+
 }
 .caption #Time 
 {
